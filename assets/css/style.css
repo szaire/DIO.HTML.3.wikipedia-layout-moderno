@@ -4,12 +4,26 @@ body, html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ul { list-style: none; padding-left: 5px; }
+li { margin-top: 10px;}
 a { color:blue; text-decoration: none;}
+hr { outline-color: #cdcdcd; }
+.logo {
+    margin-top: 20px;
+    text-align: center;
+}
+.search-bar {
+    text-align: center;
+    margin: 10px;
+}
 .bar {
     background-color: #f9f9fb;
     padding:15px;
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
+}
+.line {
+    background-color: #f9f9fb;
+    border-top: solid 1px #cdcdcd;
 }
 .content {
     max-width: 1440px;
@@ -23,8 +37,13 @@ a { color:blue; text-decoration: none;}
     padding-right: 1rem;
 }
 .footer {
+    font-size: small;
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #868686;
 }
 .anchors {
     border-left: solid 1px #cdcdcd;
@@ -33,6 +52,15 @@ a { color:blue; text-decoration: none;}
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
+.warning {
+    text-align: center;
+}
 figure {
     text-align: center;
 }
+figure > img {
+    /* border: 1px solid gray; */
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+figcaption {font-size: small;}

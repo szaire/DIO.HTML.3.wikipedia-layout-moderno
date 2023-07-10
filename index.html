@@ -1,44 +1,184 @@
+<!-- 
+    Objetivos: 
+    1) Focar em elementos de semântica de páginas web
+    2) Criar um artigo para o assunto que for escolhido
+-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Radiohead - Modernpedia</title>
+    <link rel="shortcut icon" href="assets/images/logo/wikipedia-favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div>
+            <div class="logo">
+                <img width="100" src="assets/images/logo/wikipedia-logo.png" width="200" />
+            </div>
+            <div class="search-bar">
+                <h2>Modernpedia</h2>
+                <form action="get">
+                    <input placeholder="Busque conhecimento." type="text">
+                    <input type="submit" value="Pesquisar">
+                </form>
+            </div>
         </div>
-    </div>
+    </header>
 
     <div class="bar"></div>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
+    <main>
+        <div class="content">
+            <div class="sidebar">
+                <h2>Bandas de Rock Alternativo</h2>
+                <h4>Você também pode se interessar por:</h4>
+                <ul>
+                    <li><a href="#">Muse</a></li>
+                    <li><a href="#">Nirvana</a></li>
+                    <li><a href="#">Pink Floyd</a></li>
+                    <li><a href="#">Beatles</a></li>
+                    <li><a href="#">Linkin Park</a></li>
+                </ul>
+            </div>
 
-        <div class="main">
-            
-        </div>
+            <div class="main">
+                <h1 id="about">Sobre a banda</h1>
+                <p>
+                    Radiohead é uma banda britânica de rock alternativo, formada no ano de 1985 em Abingdon, Oxford
+                    por Thom Yorke (vocais, guitarra, piano), os irmãos Jonny Greenwood (guitarra, piano, ondas
+                    martenot) e Colin Greenwood (baixo, sintetizador), Ed O'Brien (guitarra, sintetizadores, backing
+                    vocals) e Philip Selway (bateria, percussão). Desde 1994 a banda têm trabalhado com o produtor Nigel
+                    Godrich e Stanley Donwood na produção das capas dos álbuns. A abordagem experimental do Radiohead é
+                    creditada com o avanço do som do rock alternativo no final dos anos 1980
+                </p>
+                <div class="line"></div>
+                <h1 id="story">História da Banda</h1>
+                <h2 id="initial">Pré-formação</h2>
+                <p>
+                    Os músicos que viriam a formar o Radiohead estudaram juntos numa escola pública só para rapazes
+                    chamada Abingdon. Thom Yorke e Colin Greenwood eram do mesmo ano, Phil Selway e Ed O'Brien eram
+                    um ano mais velhos do que eles e Jonny Greenwood era um ano mais novo. Em 1985, eles formaram a
+                    banda On a Friday, fazendo referência ao único dia da semana em que podiam ensaiar. O primeiro
+                    concerto da banda ocorreu no final do mesmo ano, no Jericho Tavern, em Oxford.
+                    Originalmente, Jonny Greenwood juntou-se à banda como teclista mas, algum tempo depois, tornou-se o
+                    guitarrista principal. Ainda que Thom, Ed, Phil e Colin tenham terminado seus estudos em 1987, o
+                    grupo continuou a reunir-se aos fins-de-semana e feriados.
+                </p>
+                <figure>
+                    <img src="assets/images/blog/1.jpg" alt="Quatro integrantes da banda em sua formação inicial.">
+                    <figcaption>Quatro integrantes da banda em sua formação inicial.</figcaption>
+                </figure>
+                <h2 id="pablo-honey">Pablo Honey - "Aquela banda de uma música só"</h2>
+                <p>
+                    O Radiohead lançou seu primeiro álbum, Pablo Honey, em fevereiro de 1993. Seu estilo musical foi
+                    comparado ao grunge, estilo bastante popular nos anos 90 mas, mesmo assim, Pablo Honey não se saiu
+                    muito bem comercialmente, atingindo baixas posições nas paradas musicais britânicas.
+                    Inesperadamente, durante sua turnê norte-americana, o videoclipe de "Creep" recebeu intensa rotação
+                    na MTV. A canção atingiu a segunda posição na Billboard Modern Rock Tracks e a sétima posição nas
+                    paradas britânicas, quando foi relançada no fim daquele ano. A banda, entretanto, quase cedeu à
+                    pressão do sucesso repentino, como no segundo ano da turnê de divulgação do álbum Pablo Honey. Eles
+                    descreveram esta turnê como uma experiência miserável, como disse Phil Selway em uma entrevista:
+                    "Ainda estávamos tocando as mesmas canções que nós gravamos dois anos antes… era como estar preso no
+                    tempo."
+                </p>
+                <figure>
+                    <img width="600" src="assets/images/blog/2.jpg"
+                        alt="Todos os integrantes da banda em sua formação final.">
+                    <figcaption>Todos os integrantes da banda em sua formação final.</figcaption>
+                </figure>
+                <h2 id="the-bends">The Bends - O início de uma identidade própria</h2>
+                <p>
+                    Após a turnê norte-americana, a banda passou a trabalhar em seu segundo álbum. Para isso, eles
+                    contrataram o experiente produtor dos estúdios da Abbey Road John Leckie. A tensão era grande, não
+                    apenas pelo sucesso de "Creep", mas pela expectativa da crítica e dos fãs para um álbum superior à
+                    Pablo Honey.Para fugir desta pressão, a banda viajou para a Oceania e para a Ásia, mas a
+                    popularidade do Radiohead voltou-se contra eles. Thom Yorke foi acusado de estar aderindo ao estilo
+                    de vida de astros da MTV, e que essa viagem da banda era apenas um artifício para que seu álbum
+                    vendesse mais.O EP My Iron Lung, lançado em 1994, que contém o single homônimo, foi a reação da
+                    banda, marcando uma transição de maior profundidade do que a planejada para o seu segundo álbum.
+                    Este single foi promovido através de grande rotação em estações de rádio underground;
+                    comercialmente, My Iron Lung se saiu melhor do que o esperado, e esse período marcou o surgimento de
+                    uma base leal de fãs do Radiohead. Tendo desenvolvido algumas canções novas enquanto estavam em
+                    turnê, o Radiohead terminou de gravar seu segundo álbum, The Bends, no fim de 1994, tendo o lançado
+                    em Maio de 1995. Enquanto a cena de bandas de Britpop dominava a atenção da mídia, o Radiohead
+                    finalmente havia feito sucesso em sua terra natal com The Bends.
+                </p>
+                <figure>
+                    <img width="500" src="assets/images/blog/3.jpg"
+                        alt="Foto de um dos shows feitos para a turnê de The Bends.">
+                    <figcaption>Foto de um dos shows feitos para a turnê de The Bends.</figcaption>
+                </figure>
+                <h2 id="ok-computer">Ok Computer - O imperfeito sucesso global</h2>
+                <p>
+                    Duas novas canções haviam sido gravadas para o sucessor de The Bends: "Lucky", lançado como um
+                    single para promover o álbum de caridade The Help Album, da fundação War Child; e "Exit Music (For a
+                    Film)", para a adaptação cinematográfica de Romeu + Julieta de Baz Luhrmann, em 1996. Com a
+                    assistência do produtor musical Nigel Godrich, seu colaborador em "Lucky" e no lado B "Talk Show
+                    Host", o Radiohead produziu seu terceiro álbum sozinho, começando a trabalhar no começo de 1996. Em
+                    Julho daquele ano eles haviam gravado quatro canções com Godrich em seu estúdio, em Oxford.
+                    Antes de completarem estas gravações, eles decidiram tocar estas canções ao vivo, enquanto abriam os
+                    shows de Alanis Morissette. O resto do álbum foi gravado na mansão do século XV da atriz inglesa
+                    Jane Seymour. As sessões de gravação foram tranqüilas, com a banda tocando o dia inteiro,
+                    gravando as músicas em cômodos diferentes e ouvindo Beatles, DJ Shadow, Ennio Morricone e Miles
+                    Davis, para buscar inspiração. A gravação do álbum completou-se ainda em 1996, e em Março de
+                    1997, ele foi mixado e masterizado.
+                </p>
+                <figure>
+                    <img width="500" src="assets/images/blog/4.jpg"
+                        alt="Foto de uma entrevista para uma revista na época em 1997.">
+                    <figcaption>Foto de uma entrevista para uma revista na época em 1997.</figcaption>
+                </figure>
+                <div class="warning"><img width="200" src="assets/images/warnings/atencao.webp"></div>
+                <div class="warning" id="wip">
+                    <h2>⚠️ Aviso: O blog ainda está sendo formulado! ⚠️</h2>
+                </div>
+                <div class="warning">
+                    <p>Alimentar um blog detalhado com informações verídicas e atualizadas é um processo demorado pois
+                        demanda tempo dedicado a um trabalho de pesquisa e, muitas vezes, investigação quanto a validade
+                        das informações. Caso você se sinta inspirado a nos ajudar, entre em contato conosco pela <a
+                            href="https://discord.com/" target="_blank">nossa página do discord</a> e seja bem vindo(a)
+                        ao time de contribuição da <b>Modernpedia</b> ;).
+                    </p>
+                </div>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
+            </div>
+
+            <div class="anchors">
+                <h2>Neste Artigo</h2>
+                <ul>
+                    <li><a href="#about">Sobre a banda</a></li>
+                    <li>
+                        <details>
+                            <summary>
+                                <a href="#story">
+                                    História da Banda
+                                </a>
+                            </summary>
+                    <li><a href="#initial">Pré-formação</a></li>
+                    <li><a href="#pablo-honey">Pablo Honey</a></li>
+                    <li><a href="#the-bends">The Bends</a></li>
+                    <li><a href="#ok-computer">Ok Computer</a></li>
+                    <li><a href="#wip">[WIP]</a></li>
+                    </details>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </main>
 
     <div class="footer">
-
+        <p>Copyright ©️ - 2023</p>
+        <p>Modernpedia Org.</p>
+        <p>Samuel Zaire Rocha. <a href="https://github.com/szaire">github.com/szaire</a></p>
     </div>
 </body>
+
 </html>
